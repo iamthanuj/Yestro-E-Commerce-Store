@@ -16,11 +16,11 @@ function BestProducts() {
         <div
           className={`relative w-full h-[300px] rounded-3xl overflow-hidden `}
         >
-          {/* <img
-            className={`object-cover rounded-3xl`}
+          <img
+            className={`object-cover object-top rounded-3xl`}
             src={hoodieimage}
             alt=""
-          /> */}
+          />
           <div className="absolute z-10  w-full bottom-[20px] flex justify-between items-center px-5 ">
             <div>
               <h1 className="text-white">Retro Sneakers</h1>
@@ -41,11 +41,12 @@ function BestProducts() {
         <div
           className={`relative w-full rounded-3xl overflow-hidden row-span-2 `}
         >
-          {/* <img
-            className={`object-contain  rounded-3xl`}
+          <img
+            className={`object-cover object-top h-[613px] w-full rounded-3xl`}
             src={hoodieimage}
             alt=""
-          /> */}
+          />
+
           <div className="absolute z-10  w-full bottom-[20px] flex justify-between items-center px-5 ">
             <div>
               <h1 className="text-white">Retro Sneakers</h1>
@@ -67,8 +68,8 @@ function BestProducts() {
           className={`relative w-full h-[300px] rounded-3xl overflow-hidden `}
         >
           <img
-            className={`object-cover   rounded-3xl`}
-            src={hoodieimage}
+            className={`object-cover object-bottom   rounded-3xl`}
+            src={sneakerimage}
             alt=""
           />
           <div className="absolute z-10  w-full bottom-[20px] flex justify-between items-center px-5 ">
