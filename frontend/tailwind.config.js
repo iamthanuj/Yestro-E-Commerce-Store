@@ -11,6 +11,7 @@ export default {
       colors:{
         "bg-main":"#f6eddd",
         "bg-secondary":"#f5ff84",
+        "bg-third":"#faff00",
       },
     },
   },
