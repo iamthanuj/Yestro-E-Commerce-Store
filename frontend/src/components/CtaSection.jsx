@@ -1,4 +1,11 @@
 import React from "react";
+import logo from "../assets/yestro-logo-white.png";
+import {
+  FaFacebookF,
+  FaXTwitter,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa6";
 
 function CtaSection() {
   return (
@@ -22,8 +29,80 @@ function CtaSection() {
       </div>
 
       {/* bot cta section */}
+      <div className="w-full bg-bg-fourth py-10">
+        <div className="container mx-auto px-5 flex justify-between">
+          <div className="w-[294px] flex flex-col gap-5">
+            <img className="w-[200px]" src={logo} alt="" />
+            <p className="text-gray-400">
+              Our collection of wedding gowns offers a wide variety of styles
+              that caters to unique tastes, from classical to couture, rounding
+              out the look with a choice in beautiful wedding veils and
+              accessories.
+            </p>
+            <div className="flex justify-start items-center gap-3">
+              <a
+                className="border-2 border-white text-white text-[20px] p-2 rounded-full"
+                href=""
+              >
+                {<FaYoutube />}
+              </a>
+              <a
+                className="border-2 border-white text-white text-[20px] p-2 rounded-full"
+                href=""
+              >
+                {<FaFacebookF />}
+              </a>
+              <a
+                className="border-2 border-white text-white text-[20px] p-2 rounded-full"
+                href=""
+              >
+                {<FaInstagram />}
+              </a>
+              <a
+                className="border-2 border-white text-white text-[20px] p-2 rounded-full"
+                href=""
+              >
+                {<FaXTwitter />}
+              </a>
+            </div>
+          </div>
+
+          <div className="w-[294px] flex flex-col gap-5">
+            <h2 className="text-white text-2xl uppercase">Services</h2>
+            <div className="text-white flex flex-col gap-2">
+              <p>Sample Development</p>
+              <p>24/7 Customer Support</p>
+              <p>Secure Payment Option</p>
+              <p>Fast and Reliable Shipping</p>
+              <p>Size and Fit Assistance</p>
+              <p>Style Inspiration</p>
+            </div>
+          </div>
+
+          <div className="w-[294px] flex flex-col gap-5">
+            <h2 className="text-white text-2xl uppercase">How does it work</h2>
+            <div className="text-white flex flex-col gap-2">
+              <p>Portfolio</p>
+              <p>Customer Reviews</p>
+              <p>About Us</p>
+              <p>Blog</p>
+              <p>FAQ</p>
+              <p>Clothes Manufacture</p>
+            </div>
+          </div>
 
 
+          <div className="w-[294px] flex flex-col gap-5">
+            <h2 className="text-white text-2xl uppercase">Contact Us</h2>
+            <div className="text-white flex flex-col gap-2">
+              <p>+94 767 596 551</p>
+              <p>contact@yestro.com</p>
+              <p>Colombo, Sri Lanka</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
