@@ -67,7 +67,7 @@ function CtaSection() {
             </div>
           </div>
 
-          <div className="w-[294px] flex flex-col gap-5">
+          <div className=" flex flex-col gap-5">
             <h2 className="text-white text-2xl uppercase">Services</h2>
             <div className="text-white flex flex-col gap-2">
               <p>Sample Development</p>
@@ -79,7 +79,7 @@ function CtaSection() {
             </div>
           </div>
 
-          <div className="w-[294px] flex flex-col gap-5">
+          <div className="flex flex-col gap-5">
             <h2 className="text-white text-2xl uppercase">How does it work</h2>
             <div className="text-white flex flex-col gap-2">
               <p>Portfolio</p>
@@ -91,16 +91,15 @@ function CtaSection() {
             </div>
           </div>
 
-
-          <div className="w-[294px] flex flex-col gap-5">
+          <div className="` flex flex-col gap-5">
             <h2 className="text-white text-2xl uppercase">Contact Us</h2>
             <div className="text-white flex flex-col gap-2">
               <p>+94 767 596 551</p>
               <p>contact@yestro.com</p>
               <p>Colombo, Sri Lanka</p>
-              
             </div>
           </div>
+
         </div>
       </div>
     </>
