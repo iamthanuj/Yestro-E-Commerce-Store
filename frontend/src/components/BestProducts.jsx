@@ -20,7 +20,8 @@ function BestProducts() {
             className={`object-cover object-top rounded-3xl`}
             src={hoodieimage}
             alt=""
-          />``
+          />
+          ``
           <div className="absolute z-10  w-full bottom-[20px] flex justify-between items-center px-5 ">
             <div>
               <h1 className="text-white">Retro Sneakers</h1>

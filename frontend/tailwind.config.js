@@ -13,6 +13,7 @@ export default {
         "bg-secondary":"#f5ff84",
         "bg-third":"#faff00",
         "bg-fourth":"#1a1a1a",
+        "creamy":"#fafbdb",
       },
     },
   },
