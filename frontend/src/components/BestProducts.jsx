@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import hoodieimage from "../assets/hoodie.jpg";
-import sneakerimage from "../assets/sneaker.jpg";
+import sunglassimage from "../assets/sunglass.jpg";
+import sneakerimage from "../assets/sneakers.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -26,8 +27,8 @@ function BestProducts() {
 
           <div className="absolute z-10  w-full bottom-[20px] flex justify-between items-center px-5 ">
             <div>
-              <h1 className="text-white">Retro Sneakers</h1>
-              <p className="text-white">All Sizes</p>
+              <h1 className="text-white">Clothes</h1>
+              <p className="text-white">All Types</p>
             </div>
             <div className="h-full flex justify-center items-center ">
               <button className="bg-white  text-black font-bold px-5 py-3 rounded-full">
@@ -47,7 +48,7 @@ function BestProducts() {
         >
           <img
             className={`object-cover object-top h-[613px] w-full rounded-3xl`}
-            src={hoodieimage}
+            src={sneakerimage}
             alt=""
           />
 
@@ -73,14 +74,14 @@ function BestProducts() {
           className={`relative w-full h-[300px] rounded-3xl overflow-hidden `}
         >
           <img
-            className={`object-cover object-bottom   rounded-3xl`}
-            src={sneakerimage}
+            className="object-cover object-bottom   rounded-3xl"
+            src={sunglassimage}
             alt=""
           />
           <div className="absolute z-10  w-full bottom-[20px] flex justify-between items-center px-5 ">
             <div>
-              <h1 className="text-white">Retro Sneakers</h1>
-              <p className="text-white">All Sizes</p>
+              <h1 className="text-white">Sunglasses</h1>
+              <p className="text-white">All Types</p>
             </div>
             <div className="h-full flex justify-center items-center ">
               <button className="bg-white  text-black font-bold px-5 py-3 rounded-full">
