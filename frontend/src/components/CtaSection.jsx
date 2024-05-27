@@ -30,7 +30,7 @@ function CtaSection() {
 
       {/* bot cta section */}
       <div className="w-full bg-bg-fourth py-10">
-        <div className="container mx-auto px-5 flex justify-between">
+        <div className="container mx-auto max-w-[1024px] px-5 flex justify-between">
           <div className="w-[294px] flex flex-col gap-5">
             <img className="w-[200px]" src={logo} alt="" />
             <p className="text-gray-400">

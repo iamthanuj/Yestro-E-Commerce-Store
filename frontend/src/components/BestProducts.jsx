@@ -1,19 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
-import BestProductCard from "./BestProductCard";
 import hoodieimage from "../assets/hoodie.jpg";
 import sneakerimage from "../assets/sneaker.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function BestProducts() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className="container mx-auto mt-20 px-5">
+    <div className="container mx-auto mt-20 px-5 max-w-[1024px]">
       <h1 className="text-center text-5xl font-bold">Our Best Products</h1>
       <div className="grid grid-cols-2 gap-3  mt-10">
-        {/* <BestProductCard span={""} img={hoodieimage} />
-        <BestProductCard span={"row-span-2"} size={"h-full"} img={sneakerimage} />
-        <BestProductCard span={""} img={sneakerimage} /> */}
-
         <div
+          data-aos="fade-right"
           className={`relative w-full h-[300px] rounded-3xl overflow-hidden `}
         >
           <img
@@ -21,7 +23,7 @@ function BestProducts() {
             src={hoodieimage}
             alt=""
           />
-          ``
+
           <div className="absolute z-10  w-full bottom-[20px] flex justify-between items-center px-5 ">
             <div>
               <h1 className="text-white">Retro Sneakers</h1>
@@ -40,6 +42,7 @@ function BestProducts() {
         </div>
 
         <div
+          data-aos="fade-left"
           className={`relative w-full rounded-3xl overflow-hidden row-span-2 `}
         >
           <img
@@ -66,6 +69,7 @@ function BestProducts() {
         </div>
 
         <div
+          data-aos="fade-right"
           className={`relative w-full h-[300px] rounded-3xl overflow-hidden `}
         >
           <img

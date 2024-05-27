@@ -3,7 +3,7 @@ import heroimage from "../assets/hero-image.jpg";
 
 function Hero() {
   return (
-    <div className="mt-10 container mx-auto px-5 flex items-center gap-5 h-[400px]">
+    <div className="mt-10 container mx-auto px-5 flex items-center gap-5 h-[400px] max-w-[1024px]">
       <div className="w-2/5 flex flex-col gap-5">
         <h1 className="text-5xl font-bold leading-snug">
           Find Your Favorite Clothing Collections
