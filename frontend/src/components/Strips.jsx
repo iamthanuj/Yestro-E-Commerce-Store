@@ -12,6 +12,7 @@ function Strips({ text, bgColor, textColor, angle }) {
     }}
   >
     <p className="text-center">{text}</p>
+    <h1>ss</h1>
   </div>
   );
 }
